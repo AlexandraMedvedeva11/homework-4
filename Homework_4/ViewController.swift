@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         print(number(a: 3))
 
         //5
-        func power (parameterWithoutDefault: Int, parameterWithDefault: Int) {
+        func power (parameterWithoutDefault: Int, parameterWithDefault: Int = 12) {
             
         }
         power(parameterWithoutDefault: 4, parameterWithDefault: 3)
