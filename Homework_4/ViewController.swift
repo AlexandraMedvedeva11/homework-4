@@ -83,12 +83,10 @@ class ViewController: UIViewController {
         print(number(a: 3))
 
         //5
-        func power(number: Double, power: Double) -> Double {
-            guard number > 0, power > 0 else { return 0}
-            let inPower = pow(number, power)
-            return inPower
+        func power (parameterWithoutDefault: Int, parameterWithDefault: Int) {
+            
         }
-        print(power(number: 4, power: 2))
+        power(parameterWithoutDefault: 4, parameterWithDefault: 3)
 
     }
 
